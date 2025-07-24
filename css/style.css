@@ -90,3 +90,51 @@ li {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+.stamp-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.stamp-item {
+  width: 200px;
+  text-align: center;
+  background-color: #fefefe;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.stamp-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery a {
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  width: 180px;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.gallery a:hover {
+  transform: scale(1.05);
+}
+
+.gallery img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
